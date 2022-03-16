@@ -36,5 +36,5 @@ public class ReajusteServiceTest {
         // desempenho a desejar é reajuste de 25%, logo tem que estar valendo 1250
         service.concederReajuste(funcionario, Desempenho.ALTO);
         assertEquals(new BigDecimal("1250.00"), funcionario.getSalario());
-    } 
+    }
 }
